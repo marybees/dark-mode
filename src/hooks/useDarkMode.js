@@ -1,7 +1,7 @@
 import useLocalStorage from './useLocalStorage';
 
 const useDarkMode = () => {
-    const [value, setValue] = useLocalStorage(value);
+    const [value, setValue] = useLocalStorage('value');
 
     return [value, setValue];
 };
